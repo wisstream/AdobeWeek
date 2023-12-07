@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wondoo - Para-Taekwondo </title>
+  
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/assets/images/logo.svg" alt="logo" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+  <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
+  <link rel="preload" as="image" href="./assets/images/calories.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="/assets/images/logo.svg" alt="logo" width="60">
+
+        <span class="span"> Wondoo </span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link active" data-nav-link> Accueil </a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>Découverte des PARA-JO</a>
+          </li>
+
+          <li>
+            <a href="#class" class="navbar-link" data-nav-link>Nos Partenaires</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Nos Événements</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contactez-nous</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#contact" class="btn btn-secondary">QR CODE</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero" data-section
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <strong class="strong">Le meilleur</strong>Para event
+            </p>
+
+            <h1 class="h1 hero-title">Découvrez un sport: <br>
+              ParaTaekwondo</h1>
+
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.png" width="660" height="753" alt="hero banner" class="w-100">
+
+            <img src="./assets/images/hero-circle-one.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-1">
+            <img src="./assets/images/hero-circle-two.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-2">
+
+            <img src="./assets/images/calories.svg" width="348" height="224" alt="calories" class="abs-img abs-img-2">
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner has-after">
+            <img src="./assets/images/about-banner.png" width="660" height="648" loading="lazy" alt="about banner"
+              class="w-100">
+
+            <img src="./assets/images/about-circle-one.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-1">
+            <img src="./assets/images/about-circle-two.png" width="660" height="534" loading="lazy" aria-hidden="true"
+              alt="" class="circle circle-2">
+
+            
+          </div>
+
+          <div class="about-content class-card">
+            
+
+            <p class="section-subtitle">À propos</p>
+
+            <h2 class="card-content">Les Jeux Paralympiques ? </h2>
+
+            <p class="card-content">
+              Les Jeux paralympiques sont une compétition sportive mondiale réservée aux athlètes en situation de handicap.
+              Ils ont lieu tous les quatre ans et mettent en lumière une variété de sports adaptés. <br>
+              Les jeux visent à promouvoir l'inclusion, l'égalité et à démontrer les compétences exceptionnelles des athlètes en situation de handicap.
+            </p>
+
+            <div class="card-content">
+
+              <div class="about-coach">
+
+                <figure class="coach-avatar">
+                  <img src="./assets/images/about-coach.jpg" width="65" height="65" loading="lazy" alt="Trainer">
+                </figure>
+
+                <div>
+                  <h3 class="h3 coach-name">Asaf Yasur</h3>
+
+                  <p class="coach-title">Champion du monde et olympique de Para-Taekwondo</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #VIDEO
+      -->
+
+      <section class="section" aria-label="video">
+        <div class="container">
+          <iframe class="video" width="560" height="315" src="assets/images/video.mp4"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CLASS
+      -->
+
+      <section class="section class" id="class" aria-label="class"
+        style="background-image: url('./assets/images/classes-bg.png')">
+        <div class="container">
+
+          <p class="section-subtitle">Nos partenaires</p>
+
+          <h2 class="h2 section-title text-center">Ils nous font confiance</h2>
+
+          <ul class="class-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/class-1.jpg" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-1.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Aurélie Rivard</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Aurélie Rivard, née le 14 mai 1996 à Saint-Jean-sur-Richelieu, est une nageuse handisport canadienne.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/class-2.jpg" width="416" height="240" loading="lazy" alt="Cardio & Strenght"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-1.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Philippe Croizon</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Philippe Croizon, un ancien ouvrier français originaire de cette ville, devenu athlète, aventurier, chroniqueur et conférencier.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/class-3.jpg" width="416" height="240" loading="lazy" alt="Power Yoga"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-3.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Xavier de Le Rue</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Xavier de Le Rue est un snowboardeur français, spécialisé dans l’épreuve de cross dont il a été deux fois champion du monde en 2003 et 2007
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/class-4.jpg" width="416" height="240" loading="lazy" alt="The Fitness Pack"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-4.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Fanny Bertrand</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Fanny Bertrand est une joueuse française de tennis de table handisport
+                  </p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Nos Événements</p>
+
+          <h2 class="h2 section-title text-center">Notre programme</h2>
+
+          <ul class="blog-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                  <img src="./assets/images/blog-1.jpg" width="440" height="270" loading="lazy"
+                    alt="Going to the gym for the first time" class="img-cover">
+
+                  <time class="card-meta" datetime="2022-07-07">Samedi 15 Juin 2024</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Lancement officiel </a>
+                  </h3>
+                  <br>
+                  <p class="card-title"> Emplacement: <br> Place des Vosges</p>
+                  <p class="card-text">
+                    Discours d'ouverture, présentation des athlètes, et diffusion en direct sur les réseaux sociaux. <br> <br> 
+                    Visite des associations locales, sensibilisation, et collecte de fonds.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                  <img src="./assets/images/blog-2.jpg" width="440" height="270" loading="lazy"
+                    alt="Parturient accumsan cacus pulvinar magna" class="img-cover">
+
+                  <time class="card-meta" datetime="2022-07-07">Dimanche 16 Juin 2024</time>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Table Ronde Média</a>
+                  </h3>
+                  <br>
+                  <p class="card-title"> Emplacement : <br>
+                    Maison de la Photographie </p>
+                  <p class="card-text">
+                    Table ronde sur l'inclusion sportive avec experts, athlètes, et médias. <br> <br>
+                    Interviews avec les athlètes, diffusion en direct sur les réseaux sociaux. <br> <br>
+                    Rencontres avec les personnalités, dédicaces, photos et tournoi amical avec d'autres athlètes.
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 440; --height: 270;">
+                  <img src="./assets/images/blog-3.jpg" width="440" height="270" loading="lazy"
+                    alt="Risus purus namien parturient accumsan cacus" class="img-cover">
+
+                  <time class="card-meta" datetime="2022-07-07">Week-end du 22-23 Juin 2024</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Conférence, ateliers interactifs et JPO</a>
+                  </h3>
+                  <br>
+                  <p class="card-title">Emplacements: <br>
+                  Gymnase Louis Lumière // Hôtel de Ville</p>
+                  <p class="card-text">
+                    <b>Expérience en Réalité Augmentée (AR)
+                    Simulation de combat de PARA-TAEKWONDO QR Code disponible pour une expérience immersive. </b><br> <br>
+                    Interventions sur la réinsertion sociale par Laurence Fischer, ateliers interactifs.
+                    
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="section footer-top bg-dark has-bg-image" id="contact" style="background-image: url('./assets/images/footer-bg.png')">
+      <div class="container">
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title has-before">Nos liens</p>
+          </li>
+
+          <li>
+            <a href="#home" class="footer-link">Accueil</a>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">Découverte des PARA-JO</a>
+          </li>
+
+          <li>
+            <a href="#class" class="footer-link">Nos partenaires</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="footer-link">Nos événements</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contactez-nous</a>
+          </li>
+          
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Contactez-nous</p>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+            </div>
+
+            <address class="address footer-link">
+              47 Bd de Pesaro, 92000 Nanterre, <br> IIM - Digital School Paris
+            </address>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:18001213637" class="footer-link">01 81 00 30 30</a>
+            </div>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+              <a href="mailto:info@fitlife.com" class="footer-link">webmaster@iim.fr</a>
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Notre Newsletter</p>
+          </li>
+
+          <li>
+            <form action="" class="footer-form">
+              <input type="email" name="email_address" aria-label="email" placeholder="Adresse e-mail" required
+                class="input-field">
+
+              <button type="submit" class="btn btn-primary" aria-label="Submit">
+                <ion-icon name="chevron-forward-sharp" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+        <li>
+          <img src="/assets/images/QRCODE.png" alt="">
+        </li>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+          <div class="container">
+
+            <p class="copyright">
+              &copy; 2024 Wondoo. Tous droits réservés.</a>
+            </p>
+
+            <ul class="footer-bottom-list">
+
+              <li>
+                <a class="footer-bottom-link has-before">Politique de confidentialité</a>
+              </li>
+
+              <li>
+                <a class="footer-bottom-link has-before">Conditions générales</a>
+              </li>
+
+            </ul>
+
+          </div>
+    </div>
+
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
